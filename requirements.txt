@@ -1,0 +1,9 @@
+atlasopenmagic
+uproot 
+numpy 
+awkward 
+matplotlib
+vector
+ipykernel
+aiohttp
+requests
