@@ -13,7 +13,7 @@ python -m ipykernel install --user --name=OpenDataStatsTutorial
 ```
 
 ```
-conda create --name open-data --file requirements.txt
+conda create --name open-data python=3.10 --file requirements.txt
 conda activate open-data
 python -m ipykernel install --user --name=OpenDataStatsTutorial
 ```
@@ -25,4 +25,15 @@ jupyter notebook HyyAnalysis.ipynb &
 
 ```
 jupyter kernelspec uninstall opendatastatstutorial
+```
+
+```
+rm -r ~/venv/open-data
+pip cache purge
+```
+
+Or similarly for conda:
+```
+conda env remove --name open-data
+conda clean --all
 ```
