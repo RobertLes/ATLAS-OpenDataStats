@@ -19,7 +19,7 @@ python -m ipykernel install --user --name=OpenDataStatsTutorial
 ```
 
 ```
-jupyter notebook HyyAnalysis.ipynb &
+jupyter notebook Hyy_statistics.ipynb  &
 ```
 
 
